@@ -1,0 +1,21 @@
+syntax: glob
+*.pyc
+*~
+config.json
+dist/*
+build/*
+cache
+version.json
+
+# Server settings
+conf/*
+
+# Eclipse settings
+.project
+.pydevproject
+.settings/*
+msvcp90.dll
+
+# PyCharm
+.idea/*
+.DS_Store
